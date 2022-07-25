@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>練習</title>
+</head>
+<body>
+    <table class="price">
+        <tr>
+            <th>標題1</th>
+            <th>標題2</th>
+            <th>標題3</th>
+        </tr>
+        <tr>
+            <td>內容1</td>
+            <td>內容2</td>
+            <td>內容3</td>
+        </tr>
+        <tr>
+            <td>內容1</td>
+            <td>內容2</td>
+            <td>內容3</td>
+        </tr>
+    </table>
+
+    <form action="index.html">
+        <label for="mail">電子信箱</label>
+        <input type="text" id="mail" placeholder="請輸入信箱" name="mail">
+        <input type="text" name="person">
+        <input type="submit" value="下一步">
+
+        <h2>性別</h2>
+        <input type="radio" name="sex" value="male">男生
+        <input type="radio" name="sex" value="women">女生
+
+        <h2>興趣</h2>
+        <input type="checkbox" value="movie" name="hobby" >看電影
+        <input type="submit" value="送出">
+
+        <label for="birth">生日</label>
+        <select name="birth" id="birth">
+            <option value="1900">1900</option>
+            <option value="1901">1901</option>
+            <option value="1902">1902</option>
+            <input type="submit" value="送出">
+        </select>
+
+        <h2>內容</h2>
+        <textarea placeholder="請輸入" name="content" id="" cols="5" rows="2"></textarea>
+    </form>
+
+    <div class="icon">
+        <p>icon</p>
+        <i class="fa-regular fa-avocado"></i>
+        <i class="fas fa-band-aid"></i>
+    </div>
+</body>
+</html>
+
